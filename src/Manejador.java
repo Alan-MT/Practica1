@@ -14,12 +14,13 @@ public class Manejador {
         this.fra.getVerificar().addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                verificar();
             }
         });
     }
 
     public void verificar() {
+        fra.getjTextField1().getText();
         String linea;
        /** while ((linea = br.readLine()) != null) {
             con la linea leida, separamos los campos
